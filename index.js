@@ -34,6 +34,6 @@ tsString = "export const sharedEnvironment = " + JSON.stringify(environmentBase,
 
 console.log('Writing variables from process.env: ' + tsEnvironmentPath);
 
-fs.writeFileSync(tsEnvironmentPath, tsString);
+//fs.writeFileSync(tsEnvironmentPath, tsString);
 
 console.log('Finished');
